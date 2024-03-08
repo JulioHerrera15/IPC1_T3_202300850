@@ -14,7 +14,7 @@ abstract class Figura {
     public static void main(String[] args) {
         List<Figura> figuras = new ArrayList<>();
         figuras.add(new Triangulo((Math.random()*9) + 1, (Math.random()*9) + 1));
-        figuras.add(new Circulo((Math.random()*9) + 1));
+        figuras.add(new Hexagono((Math.random()*9) + 1));
         figuras.add(new Cuadrado((Math.random()*9) + 1));
 
         for (Figura figura : figuras) {
