@@ -4,7 +4,8 @@ public class Triangulo extends Figura{
     private double base;
     private double altura;
 
-    public Triangulo(double base, double altura) {
+    public Triangulo(double d, double base, double altura) {
+        super(d);
         this.base = base;
         this.altura = altura;
     }

@@ -4,6 +4,7 @@ public class Cuadrado extends Figura{
     private double lado;
 
     public Cuadrado(double lado) {
+        super(numeroDeLados); // Explicitly invoke the constructor of the Figura class
         this.lado = lado;
     }
 

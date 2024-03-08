@@ -4,6 +4,7 @@ public class Hexagono extends Figura{
     private double lado;
 
     public Hexagono(double lado) {
+        super(numeroDeLados);
         this.lado = lado;
     }
 
@@ -18,7 +19,7 @@ public class Hexagono extends Figura{
     }
     
     public double getLado() {
-        return lado;
+        return getLado();
     }
 
     public void setLado(double lado) {
